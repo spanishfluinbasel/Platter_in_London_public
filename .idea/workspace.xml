@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3deea2ef-3ef8-45f8-81f5-87bc092d8de5" name="Changes" comment="updated text">
+      <change beforePath="$PROJECT_DIR$/.idea/Platter_London_Map.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Platter_London_Map.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="xyz" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;spanishfluinbasel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sorinmarti/Platter_London_Map.git",
+    "accountId": "c2ee6ff1-0a7b-45cc-a9df-f2b435deb42b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2p6wQHBzU3j2gMt9qcqL5jzTaja" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ingest_data.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stups/PycharmProjects/Platter_London_Map&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stups\PycharmProjects\Platter_London_Map" />
+      <recent name="C:\Users\Stups\PycharmProjects\Platter_London_Map\static\icons" />
+      <recent name="C:\Users\Stups\PycharmProjects\Platter_London_Map\static\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Stups\PycharmProjects\Platter_London_Map\static\icons" />
+      <recent name="C:\Users\Stups\PycharmProjects\Platter_London_Map\static\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="clean up 2">
+      <option name="closed" value="true" />
+      <created>1731953915345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731953915345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="clean up 2">
+      <option name="closed" value="true" />
+      <created>1731954526158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731954526158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding tiles 1/80ish">
+      <option name="closed" value="true" />
+      <created>1731954882269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731954882269</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding tiles 2/80ish">
+      <option name="closed" value="true" />
+      <created>1731954940255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731954940255</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new tiles using --xyz in command until depth 6">
+      <option name="closed" value="true" />
+      <created>1732053684389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732053684389</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new tiles using --xyz in command until depth 6">
+      <option name="closed" value="true" />
+      <created>1732053835025</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732053835025</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated coordinates">
+      <option name="closed" value="true" />
+      <created>1732097604107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732097604107</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed 2 coordinates">
+      <option name="closed" value="true" />
+      <created>1732097911381</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732097911381</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3deea2ef-3ef8-45f8-81f5-87bc092d8de5" name="Changes" comment="Fixed 2 coordinates" />
+      <created>1732099817261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732099817261</updated>
+    </task>
+    <task id="LOCAL-00009" summary="moved one person icon slightly to the right, set debug in index on false to hide coordinates">
+      <option name="closed" value="true" />
+      <created>1732110625540</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732110625540</updated>
+    </task>
+    <task id="LOCAL-00010" summary="show coordinates">
+      <option name="closed" value="true" />
+      <created>1732982555183</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732982555183</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated icons, colours and some text, removed coordinates">
+      <option name="closed" value="true" />
+      <created>1732983967027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732983967027</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated icons, colours and some text, removed coordinates">
+      <option name="closed" value="true" />
+      <created>1732984326220</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732984326220</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated icons, colours and some text, removed coordinates">
+      <option name="closed" value="true" />
+      <created>1732984430982</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732984430982</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added books">
+      <option name="closed" value="true" />
+      <created>1732985220423</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732985220423</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added bookseller text">
+      <option name="closed" value="true" />
+      <created>1732985425556</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732985425556</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added coordinates to move markers">
+      <option name="closed" value="true" />
+      <created>1736448530943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736448530943</updated>
+    </task>
+    <task id="LOCAL-00017" summary="removed coordinates, updated markers">
+      <option name="closed" value="true" />
+      <created>1736448964883</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736448964883</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated mayor of london text">
+      <option name="closed" value="true" />
+      <created>1736507533365</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736507533365</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated text">
+      <option name="closed" value="true" />
+      <created>1741817544885</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1741817544885</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated text">
+      <option name="closed" value="true" />
+      <created>1741817679270</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741817679270</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated text">
+      <option name="closed" value="true" />
+      <created>1742289003189</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1742289003189</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="clean up 2" />
+    <MESSAGE value="adding tiles 1/80ish" />
+    <MESSAGE value="adding tiles 2/80ish" />
+    <MESSAGE value="new tiles using --xyz in command until depth 6" />
+    <MESSAGE value="Updated coordinates" />
+    <MESSAGE value="Fixed 2 coordinates" />
+    <MESSAGE value="moved one person icon slightly to the right, set debug in index on false to hide coordinates" />
+    <MESSAGE value="show coordinates" />
+    <MESSAGE value="Updated icons, colours and some text, removed coordinates" />
+    <MESSAGE value="added books" />
+    <MESSAGE value="added bookseller text" />
+    <MESSAGE value="added coordinates to move markers" />
+    <MESSAGE value="removed coordinates, updated markers" />
+    <MESSAGE value="updated mayor of london text" />
+    <MESSAGE value="updated text" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated text" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>

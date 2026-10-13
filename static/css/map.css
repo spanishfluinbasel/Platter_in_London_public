@@ -1,0 +1,308 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #2d373c;
+}
+
+#map {
+    width: 70%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background: #2d373c;
+}
+
+.custom-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.icon-wrapper svg {
+    width: 70%;
+    height: 70%;
+}
+
+/* Info panel styles */
+#infoPanel {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#infoPanel h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    color: #ffffff;
+    background-color: #2d373c;
+}
+
+#infoPanel p {
+    color: #2d373c;
+}
+
+/* Content area */
+#infoWrapper {
+    flex-grow: 1;              /* Takes the available space */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;         /* Allows scrolling */
+    margin-bottom: 10px;      /* Space between content and preview box */
+    /* Firefox */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    scrollbar-color: #d20537 #2d373c; /* Scrollbar color and background */
+}
+
+/* Chrome, Edge, Safari */
+#infoWrapper::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+#infoWrapper::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+#infoWrapper::-webkit-scrollbar-thumb {
+    background-color: #2d373c; /* Color of the draggable scrollbar */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 2px solid #f1f1f1; /* Padding around the thumb */
+}
+
+#infoWrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #2d373c; /* Darker color when hovered */
+}
+
+.bottom-banner {
+    width: 70%;
+    height: 80px;
+    background: #2d373c;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Distribute space between icon groups */
+    padding: 0 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    box-sizing: border-box; /* Ensure padding is accounted for in width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.icon-group {
+    display: inline-flex;
+    gap: 15px;
+}
+
+#left-icons {
+    justify-content: flex-start;
+}
+
+.banner-description {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.banner-image {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.banner-image.active {
+    border-bottom: 2px solid #ff6347;
+}
+
+.svg-icon {
+    width: 80%;
+    height: 80%;
+    pointer-events: none; /* Ensure clicks are only on the overlay */
+}
+
+.click-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    z-index: 1001;
+}
+
+.select-marker {
+    cursor: pointer;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.6em; /* Add padding to make it look like a badge */
+    font-size: 0.75rem; /* Smaller font size */
+    font-weight: 700; /* Make the text bold */
+    line-height: 1;
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Background color, like Bootstrap's primary */
+    border-radius: 0.375rem; /* Rounded corners */
+    vertical-align: middle;
+}
+
+.unibas-link {
+    color: #d20537;
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for the tab container */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Style for tab buttons */
+.tab button {
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Style for the active/current tab button */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style for the tab content */
+.tabcontent {
+  display: none;
+  padding: 16px;
+  border-top: none;
+}
+
+
+@media (max-width: 1024px) {
+    /* Let the map occupy the screen behind the sliding panel */
+    #map {
+        width: 100%;
+        height: 100%;
+        float: none;
+        position: relative;
+    }
+
+    /* Panel is off-screen by default; slides up when .open is added */
+    #infoPanel {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: white;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 2000;
+        /* Make it fill the screen on mobile: */
+        height: 100%;
+        max-height: 100%;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+
+    #infoPanel.open {
+        transform: translateY(0);
+    }
+
+    /* #infoPanel h2 rule removed in favor of .panel-header styling */
+
+    .close-button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 10;
+        background: transparent;
+        border: none;
+        font-size: 1.2rem;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    /* Optionally hide #icon-description on mobile, if you wish */
+    #icon-description {
+        display: none;
+    }
+}
+
+/* Panel header styling - commented out
+.panel-header {
+    background-color: #2d373c;
+    position: relative;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.panel-header h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+*/
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #ffffff; /* Make the X white */
+    /* For extra contrast, you might also add something like:
+    text-shadow: 0 0 3px rgba(0,0,0,0.6);
+    */
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .close-button {
+        top: 30px !important;
+        right: 30px !important;
+    }
+}
+
+/* Hide the close button for desktop (>=1025px), so it's mobile-only */
+@media (min-width: 1025px) {
+    .close-button {
+        display: none;
+    }
+} 
